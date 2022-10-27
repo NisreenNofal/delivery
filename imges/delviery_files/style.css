@@ -1,0 +1,244 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(241, 255, 253);
+
+}
+
+/* Navbar styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    background-color: white;
+}
+
+nav .logo {
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+
+nav .logo i {
+    color: #0c003d;
+    padding-left: 0.75rem;
+}
+
+nav .logo h4 {
+
+    color: #0c003d;
+
+}
+
+nav .nav-items {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-items .nav-item {
+    padding: 0 1rem;
+}
+
+nav .nav-link {
+    text-decoration: none;
+    color: #4459ff;
+    font-size: 1.4rem;
+}
+
+nav .nav-link:hover {
+    color: #3c0aef;
+}
+
+/* discrpton section style*/
+.discr-section {
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+
+}
+
+.discr-section .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.discr-section .content h4 {
+    color: #4339ff;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.discr-section .content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.discr-section .content p {
+    color: rgb(29, 29, 29);
+    font-size: 1.4rem;
+}
+
+.discr-section .content p span {
+    color: #4339ff;
+    font-weight: bold;
+
+}
+
+.discr-section form {
+    display: flex;
+}
+
+#del {
+    height: 300px;
+    width: 500px;
+}
+
+/* services section style*/
+section.services {
+    padding: 2rem 0;
+    background-color: inherit;
+}
+
+section.services .our-services {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-services h4 {
+    color: #4339ff;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.our-services .service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-services .service .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+}
+
+.our-services .service .services:hover {
+    border: 2px solid #6e0aef;
+}
+
+
+
+.service.quality h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+}
+
+/*payment*/
+
+section.payment {
+    padding: 2rem 0;
+    background-color: inherit;
+}
+
+section.payment .the-payment {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.the-payment h3 {
+    color: #4339ff;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.the-payment .p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.methods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+
+}
+
+.p .methods:hover {
+    border: 2px solid #4339ff;
+}
+
+.methods i {
+    size: 500px;
+    font-size: 2rem;
+    color: #05000b;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: inherit;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.footer-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section .socials {
+    margin-bottom: 1rem;
+}
+
+.footer-section .socials i {
+    padding: 0 0.5rem;
+    font-size: 1.6rem;
+}
+
+.footer-section .socials i:hover {
+    color: #4339ff;
+    cursor: pointer;
+}
